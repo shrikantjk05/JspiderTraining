@@ -4,9 +4,8 @@ import java.util.Scanner;//range 1 to n fibanacci number
 
 public class FabnacciNumber3 {
 	public static void main(String[] args) {
-
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter UPPER LIMIT Number ");
+		System.out.println("Enter UPPER Limit Number ");
 		int U = sc.nextInt();
 		System.out.println("Enter Lower Limit Number ");
 		int L = sc.nextInt();
