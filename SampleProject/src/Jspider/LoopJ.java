@@ -8,17 +8,22 @@ public class LoopJ {// prime number
 		Scanner scn = new Scanner(System.in);
 		System.out.println("ENTER A NUMBER");
 		int n = scn.nextInt();
+		int count=0;
 		for (int i = 2; i < n; i++) {
+			
 			if (isPrime(i)) {
-				System.out.println(i + "  PRIME");
-
-			} else {
-				// System.out.println(i+ " NOT PRIME");
+				//count++;
+				//if(count%2!=0){                    //ulternativprimenumber
+				  System.out.println(i + "  PRIME");
+				 // }
+				 }
+				
 			}
-
+	
+	
 		}
 
-	}
+	
 
 	public static boolean isPrime(int n) {
 		boolean flag = true;

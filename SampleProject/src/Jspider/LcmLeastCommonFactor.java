@@ -10,7 +10,7 @@ public class LcmLeastCommonFactor {
 		int a = sc.nextInt();
 		System.out.println("ENTER B ");
 		int b = sc.nextInt();
-		int n = a > b ? a : b;
+		int n = a > b ? a : b; 
 		int i = n;
 		while (true) {
 			if (n % a == 0 && n % b == 0) {

@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class AutomorphicNumber {
 
+	ArraySortingEx ex;
+	
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);// 5=5x5=25=reslut last digit 5 as same quest
 		System.out.println("ENTER A NUMBER");

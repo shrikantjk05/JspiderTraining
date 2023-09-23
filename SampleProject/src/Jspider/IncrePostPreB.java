@@ -1,6 +1,6 @@
 package Jspider;
 
-public class IncrePostPreB {
+public class IncrePostPreB { 
 	public static void main(String[] args)
 	{
 		int a=0, b=0;
@@ -12,6 +12,7 @@ public class IncrePostPreB {
 		System.out.println(a);//2
 		int c=++a + a++ + ++a;//3+3+5=11
 		System.out.println(c);
+		System.out.println(a);
 	}
 
 }

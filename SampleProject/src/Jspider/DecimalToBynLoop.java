@@ -17,7 +17,7 @@ public class DecimalToBynLoop {
 			num/=2;
 			
 		}
-		System.out.println(num+bin+i);
+		System.out.println(bin+i);
 		
 }
 }

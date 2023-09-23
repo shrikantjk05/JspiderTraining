@@ -8,12 +8,14 @@ public class ByntoDecimalloop {
 		System.out.println("ENTER DECIMAL NUMBER");
 		int num=scn.nextInt();
 		int i=1;
-		int dec=0;
+		int dec=0;  
 		while(num>0)
 		{
 			int rem=num%10;
 			dec=dec+rem*i;
 			num/=10;
+		    i*=2;
+			
 		}
 		System.out.println(dec);
 }
